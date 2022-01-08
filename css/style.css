@@ -71,6 +71,7 @@ body{
     height: 3rem;
     font-size: var(--md);
     padding: 0.6rem;
+    margin-bottom: 1.6rem;
 }
 .form{
     display: flex;
@@ -87,9 +88,31 @@ body{
     font-size: var(--md);
     font-weight: var(--bold);
 }
+.secondary-button{
+    background-color: var(--white);
+    border: solid 0.1rem var(--hospital-green);
+    border-radius: 0.8rem;
+    color: var(--hospital-green);
+    width: 100%;
+    height: 5rem;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: var(--bold);
+}
 .login-button{
     margin-top: 2.2rem;
     margin-bottom: 3rem;
+}
+.signup-button{
+    margin-top: 3.6rem;
+}
+@media(max-width: 640px){
+    .signup-button{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 2.2rem;
+        width: 30rem;
+    }
 }
 .email-image{
     width: 13.2rem;
