@@ -91,3 +91,31 @@ body{
     margin-top: 2.2rem;
     margin-bottom: 3rem;
 }
+.email-image{
+    width: 13.2rem;
+    height: 13.2rem;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+.email-image img{
+    width: 8rem;
+}
+.center{
+    justify-items: center;
+}
+
+.resend{
+    text-align: center;
+    font-size: var(--sm);
+}
+.resend span{
+    color: var(--very-light-pink);
+}
+.resend a{
+    text-decoration: none;
+    color: var(--hospital-green);
+}
