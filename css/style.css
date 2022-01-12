@@ -68,6 +68,11 @@ body{
     font-weight: var(--bold);
     margin-bottom: 0.4rem;
 }
+.text-simple{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 0.8rem 0 3.2rem 0;
+}
 .input{
     background-color: var(--text-input-field);
     border: none;
