@@ -24,3 +24,55 @@ body{
     font-size: 1.6rem;
     margin: 0;
 }
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 24rem);
+    gap: 2.4rem;
+    place-content: center;
+}
+.product-card{
+    width: 24rem;
+}
+.product-card > img{
+    width: 24rem;
+    height: 24rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+@media(max-width: 640px){
+    .cards-container{
+        grid-template-columns: repeat(auto-fill, 14rem);
+    }
+    .product-card{
+        width: 14rem;
+    }
+    .product-card > img{
+        width: 14rem;
+        height: 14rem;
+    }
+}
+.product-info{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-info div p{
+    font-size: var(--sm);
+    margin: 0;
+    color: var(--very-light-pink);
+}
+.product-info div p:nth-child(1){
+    font-weight: var(--bold);
+    font-size: var(--md);
+    
+    margin-bottom: 0.4rem;
+    color: var(--black);
+}
+.product-info figure{
+    margin: 0;
+}
+.product-info figure img{
+    width: 3.6rem;
+    height: 3.6rem;
+}
