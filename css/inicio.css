@@ -83,12 +83,29 @@ body{
     height: auto;
     border: solid 0.1rem var(--very-light-pink);
     border-radius: 0.6rem;
+    padding: 2rem 2rem 0 2rem;
 }
 .desktop-menu ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.desktop-menu ul a{
+.desktop-menu ul li{
+    text-align: right;
+    font-weight: var(--bold);
+}
+.desktop-menu ul li a{
+    color: var(--black);
     text-decoration: none;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.desktop-menu ul li:nth-child(3){
+    padding-top: 2rem;
+    font-weight: var(--regular);
+    border-top: 0.1rem solid var(--very-light-pink);
+}
+.desktop-menu ul li:nth-child(3) a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
 }
